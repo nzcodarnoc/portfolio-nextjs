@@ -1,14 +1,14 @@
 import React, { createRef, useEffect, useState } from "react";
-import Portfolio from "../src/Pages/Portfolio";
-import Home from "../src/Pages/Home";
-import About from "../src/Pages/About";
-import Resume from "../src/Pages/Resume";
-import Contact from "../src/Pages/Contact";
-import AppBar from "../src/Components/AppBar";
+import Portfolio from "./Pages/Portfolio";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Resume from "./Pages/Resume";
+import Contact from "./Pages/Contact";
+import AppBar from "./Components/AppBar";
 import { ThemeProvider } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
-import theme from "../src/theme";
-import Testimonials from "../src/Pages/Testimonials";
+import theme from "./theme";
+import Testimonials from "./Pages/Testimonials";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles(theme => ({

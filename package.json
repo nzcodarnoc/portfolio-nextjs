@@ -8,8 +8,18 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@svgr/webpack": "^5.5.0",
+    "material-ui": "^0.20.2",
     "next": "10.0.5",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-obfuscate": "^3.6.8",
+    "react-responsive-picture": "^3.2.2",
+    "react-reveal": "^1.2.2",
+    "react-textfit": "^1.1.1",
+    "react-twitter-embed": "^3.0.3",
+    "react-youtube": "^7.13.1"
   }
 }
