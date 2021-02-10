@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default ({ forwardedRef, ...rest }) => {
+const Home = ({ forwardedRef, ...rest }) => {
   const theme = useTheme();
   const classes = useStyles(rest);
   return (
@@ -51,3 +51,5 @@ export default ({ forwardedRef, ...rest }) => {
     </Page>
   );
 };
+
+export default Home;

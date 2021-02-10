@@ -30,7 +30,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default ({ forwardedRef }) => {
+const Contact = ({ forwardedRef }) => {
   const classes = useStyles()
   const date = new Date();
 
@@ -120,3 +120,5 @@ export default ({ forwardedRef }) => {
     </Page>
   );
 };
+
+export default Contact;

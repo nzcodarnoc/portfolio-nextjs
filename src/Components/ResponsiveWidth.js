@@ -10,7 +10,9 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default ({ children }) => {
+const ResponsiveWidth = ({ children }) => {
   const classes = useStyles();
   return <Box className={classes.root}>{children}</Box>;
 };
+
+export default ResponsiveWidth;

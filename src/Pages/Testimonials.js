@@ -6,7 +6,7 @@ import TestimonialItem from "../Components/TestimonialItem";
 import Divider from "@material-ui/core/Divider";
 import Fade from "react-reveal/Fade";
 
-export default ({ forwardedRef }) => {
+const Testimonials = ({ forwardedRef }) => {
   return (
     <Page forwardedRef={forwardedRef}>
       <Fade>
@@ -75,3 +75,5 @@ export default ({ forwardedRef }) => {
     </Page>
   );
 };
+
+export default Testimonials;

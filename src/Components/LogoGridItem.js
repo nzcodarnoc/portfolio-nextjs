@@ -7,7 +7,7 @@ const colsSm = 4;
 const colsMd = 3;
 const colsLg = 3;
 
-export default ({ children }) => {
+const LogoGridItem = ({ children }) => {
   return (
     <Grid item xs={colsXs} sm={colsSm} md={colsMd} lg={colsLg}>
       <Box textAlign="center" mb={-2}>
@@ -16,3 +16,5 @@ export default ({ children }) => {
     </Grid>
   );
 };
+
+export default LogoGridItem;

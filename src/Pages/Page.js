@@ -2,7 +2,7 @@ import React from "react";
 import Box from "@material-ui/core/Box";
 import Paper from "@material-ui/core/Paper";
 
-export default ({ children, forwardedRef }) => {
+const Page = ({ children, forwardedRef }) => {
   return (
     <Box p={2} position="relative">
       <Box ref={forwardedRef} position="absolute" top={-60}></Box>
@@ -12,3 +12,5 @@ export default ({ children, forwardedRef }) => {
     </Box>
   );
 };
+
+export default Page;

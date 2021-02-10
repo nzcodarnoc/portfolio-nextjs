@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import Button from "@material-ui/core/Button";
 import Hidden from "@material-ui/core/Hidden";
 
-export default ({ icon, link, ...other }) => {
+const ContactButton = ({ icon, link, ...other }) => {
   const linkRef = useRef(null);
   const onClick = () => {
     const anchorTag = linkRef.current.getElementsByTagName('a')[0]
@@ -22,3 +22,5 @@ export default ({ icon, link, ...other }) => {
     </Button>
   );
 };
+
+export default ContactButton;

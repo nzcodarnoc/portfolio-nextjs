@@ -40,7 +40,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default ({ forwardedRef, ...rest }) => {
+const Portfolio = ({ forwardedRef, ...rest }) => {
   const classes = useStyles(rest);
   const opts = {
     height: "100%",
@@ -165,3 +165,5 @@ export default ({ forwardedRef, ...rest }) => {
     </Page>
   );
 };
+
+export default Portfolio;

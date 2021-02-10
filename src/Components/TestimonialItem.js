@@ -6,7 +6,7 @@ import FaceIcon from "@material-ui/icons/Face";
 import Typography from "@material-ui/core/Typography";
 import ResponsiveWidth from "./ResponsiveWidth";
 
-export default ({ name, position, children }) => {
+const TestimonialItem = ({ name, position, children }) => {
   return (
     <Box mb={2}>
       <ResponsiveWidth>
@@ -33,3 +33,5 @@ export default ({ name, position, children }) => {
     </Box>
   );
 };
+
+export default TestimonialItem;

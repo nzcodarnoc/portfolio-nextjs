@@ -32,7 +32,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default ({ forwardedRef, ...rest }) => {
+const Resume = ({ forwardedRef, ...rest }) => {
   const classes = useStyles(rest);
   function onClick() {
     document.getElementById("resume").click();
@@ -93,3 +93,5 @@ export default ({ forwardedRef, ...rest }) => {
     </Page>
   );
 };
+
+export default Resume;

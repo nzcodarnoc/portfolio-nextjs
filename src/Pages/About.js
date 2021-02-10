@@ -8,7 +8,7 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import ResponsiveWidth from "../Components/ResponsiveWidth";
 
-export default ({ forwardedRef }) => {
+const About = ({ forwardedRef }) => {
   return (
     <Page forwardedRef={forwardedRef}>
       <ResponsiveWidth>
@@ -84,3 +84,5 @@ export default ({ forwardedRef }) => {
     </Page>
   );
 };
+
+export default About;
