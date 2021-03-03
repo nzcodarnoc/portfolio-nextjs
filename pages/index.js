@@ -3,6 +3,7 @@ import Portfolio from "../src/Pages/Portfolio";
 import Home from "../src/Pages/Home";
 import About from "../src/Pages/About";
 import Resume from "../src/Pages/Resume";
+import Writing from "../src/Pages/Writing";
 import Contact from "../src/Pages/Contact";
 import AppBar from "../src/Components/AppBar";
 import { ThemeProvider } from "@material-ui/core/styles";
@@ -32,6 +33,7 @@ function App() {
     portfolioRef: createRef(),
     resumeRef: createRef(),
     testimonialsRef: createRef(),
+    writingRef: createRef(),
     contactRef: createRef()
   });
   const pageTitles = {
@@ -40,6 +42,7 @@ function App() {
     portfolioRef: <>Selected Portfolio</>,
     resumeRef: <>Download Conrad&rsquo;s C.V.</>,
     testimonialsRef: <>Testimonials</>,
+    writingRef: <>Writing</>,
     contactRef: <>Contact</>
   };
   function didScroll() {
@@ -80,6 +83,7 @@ function App() {
           <Portfolio forwardedRef={forwardedRefs.portfolioRef} />
           <Resume forwardedRef={forwardedRefs.resumeRef} />
           <Testimonials forwardedRef={forwardedRefs.testimonialsRef} />
+          <Writing forwardedRef={forwardedRefs.writingRef} />
           <Contact forwardedRef={forwardedRefs.contactRef} />
         </Box>
       </div>

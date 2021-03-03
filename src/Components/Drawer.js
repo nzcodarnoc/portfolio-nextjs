@@ -10,6 +10,7 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
 import FaceIcon from "@material-ui/icons/Face";
+import DescriptionIcon from "@material-ui/icons/Description";
 import HomeIcon from "@material-ui/icons/Home";
 import InfoIcon from "@material-ui/icons/Info";
 import TableChartIcon from "@material-ui/icons/TableChart";
@@ -79,6 +80,11 @@ export default ({ forwardedRefs }) => {
             label: "Testimonials",
             icon: FaceIcon,
             ref: forwardedRefs.testimonialsRef
+          },
+          {
+            label: "Writing",
+            icon: DescriptionIcon,
+            ref: forwardedRefs.writingRef
           },
           { label: "Contact", icon: PhoneIcon, ref: forwardedRefs.contactRef }
         ].map((menuItem, index) => (
