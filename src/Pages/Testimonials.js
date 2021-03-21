@@ -13,6 +13,22 @@ const Testimonials = ({ forwardedRef }) => {
         <Typography variant="h2">Testimonials</Typography>
       </Fade>
       <Fade>
+        <TestimonialItem name="Layne Small" position="Senior Developer">
+          Conrad has an unmatched depth of experience in the frontend space.
+          With that experience he's been able to rapidly turn incomplete designs
+          and vague requirements into polished, professional interfaces that
+          exceeded all expectations. Not only is Conrad skilled in the frontend
+          space, he's easy to work with and adaptable. In our time working
+          together he was always one of the first to learn from those around
+          him, and integrate that learning back into his own work. I can
+          wholeheartedly recommend Conrad, and look forward to working with him
+          again in the future.
+        </TestimonialItem>
+        <Box mb={5} mt={3}>
+          <Divider variant="middle" />
+        </Box>
+      </Fade>
+      <Fade>
         <TestimonialItem name="Pim Engels" position="Agile Coach">
           Delivering New Zealand Police's first digital human "Ella", Conrad
           shows a visual language that is elegant and refined, his technology
